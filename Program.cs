@@ -8,7 +8,7 @@
         {
             var airplane = new Airplane("Boeing 747", "Boeing", 1969, "Commercial Jet");
 
-            System.Console.WriteLine(airplane);
+            System.Console.WriteLine(airplane); 
         }
     }
 }
