@@ -1,12 +1,13 @@
 ﻿namespace c_sharp_class_1
-{//dev
+{//hw ex- 5
+    using c_sharp_class_1.Entity;
     internal class Program
     {
         static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            var journal = new Journal("Journal", 2021, "Description", "+123321", "email@dot.com");
+            Console.WriteLine(journal);
+
         }
     }
 }
-
-
